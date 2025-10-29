@@ -1,3 +1,5 @@
+# PlenusApp
+
 **PlenusApp** é um aplicativo multiplataforma desenvolvido em **Flutter**, com foco principal em **Android**, mas também compatível com **Web, Windows, Linux e iOS**. Ele permite aos clientes de empresas de contabilidade acessar e gerenciar suas guias de pagamento e documentos fiscais de forma simples e segura.
 
 O app consome dados fornecidos pelo [PlenusDesk](https://github.com/Nathan-Dev-udia/PlenusDesk), a plataforma web administrativa, garantindo que apenas usuários cadastrados pelo administrador possam acessar suas informações.
