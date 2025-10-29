@@ -1,16 +1,87 @@
-# teste
+# PlenusApp
 
-A new Flutter project.
+**PlenusApp** é um aplicativo Android desenvolvido em **Flutter** que permite aos clientes de empresas de contabilidade acessar e gerenciar suas guias de pagamento e documentos fiscais de forma simples e segura.  
 
-## Getting Started
+O app se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authentication** para autenticação, exibindo os arquivos armazenados em pastas no **Google Drive** associadas a cada cliente.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ⚡ Funcionalidades Principais
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔹 Login e Criação de Conta
+- Autenticação via **Firebase Authentication**;  
+- Criação automática de conta se o usuário não existir;  
+- Feedback de sucesso ou erro no login;  
+- Interface responsiva e agradável.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔹 Listagem de Guias
+- Visualização de guias **pendentes** e **concluídas** em abas separadas;  
+- Ordenação das guias por **data de postagem**;  
+- Indicadores visuais de status (pendente/concluída);  
+- Interface clara com cards estilizados.
+
+### 🔹 Detalhes da Guia
+- Ao clicar em uma guia, o usuário acessa a **tela de detalhes**:
+  - Data de vencimento (ou mensagem indicando ausência de data);  
+  - Instruções da guia;  
+  - Botão para abrir a **pasta no Google Drive** contendo os arquivos;  
+  - Botão para marcar/desmarcar a guia como concluída.
+
+### 🔹 Sincronização em Tempo Real
+- Todos os dados (guias, status, instruções) são **sincronizados imediatamente** com o Firebase;  
+- Atualização de status refletida instantaneamente no app e no painel administrativo.
+
+---
+
+## 📱 Fluxo de Uso do Cliente
+
+1. Cliente abre o **PlenusApp**;  
+2. Realiza login com e-mail e senha;  
+3. Lista de guias pendentes e concluídas é carregada do Firebase;  
+4. Cliente seleciona uma guia para ver detalhes;  
+5. Na tela de detalhes, pode:
+   - Visualizar a data de vencimento e instruções;  
+   - Abrir a pasta no Google Drive;  
+   - Marcar como concluída;  
+6. O status é atualizado no Firebase em tempo real.
+
+---
+
+## 🧩 Tecnologias Utilizadas
+
+| Camada | Tecnologia |
+| :--- | :--- |
+| **Mobile App** | Flutter |
+| **Banco de Dados** | Firebase Realtime Database |
+| **Autenticação** | Firebase Authentication |
+| **Armazenamento de Arquivos** | Google Drive API |
+
+---
+
+## 🎨 Interface do Usuário
+
+- **LoginPage:** Tela de login com campos de e-mail e senha, suporte à criação de conta automática;  
+- **HomePage:** Exibe abas de guias pendentes e concluídas, com cards estilizados;  
+- **GuiaPage:** Detalhes da guia, data de vencimento, instruções e botões de ação (abrir Drive, concluir guia);  
+- Design responsivo, com cores consistentes e gradientes suaves.
+
+---
+
+## 🛠️ Funcionalidades Técnicas Extras
+
+- **RouteObserver** global para controle de navegação e status bar;  
+- Tratamento de exceções em login e abertura de links;  
+- Ordenação automática de guias por data de postagem;  
+- Feedback visual com SnackBars em todas as ações do usuário.
+
+---
+
+## 🚀 Aprendizados e Decisões Técnicas
+
+- Primeiro aplicativo **Flutter** desenvolvido para uso empresarial real;  
+- Integração prática com **Firebase Authentication** e **Realtime Database**;  
+- Aprendizado na manipulação de links externos (**URL Launcher**) e sincronização em tempo real;  
+- Estrutura de código modular e escalável, permitindo fácil manutenção e expansão;  
+- Design de UX voltado para simplicidade e clareza na experiência do cliente.
+
+---
