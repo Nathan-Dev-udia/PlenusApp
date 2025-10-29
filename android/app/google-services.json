@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "803527869696",
+    "project_id": "plenus-acd5a",
+    "storage_bucket": "plenus-acd5a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803527869696:android:a1b16033ab906c59f79fe5",
+        "android_client_info": {
+          "package_name": "com.example.teste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBurekl-xsGttHtxTpVmtE1wqIQ4kfsJJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
