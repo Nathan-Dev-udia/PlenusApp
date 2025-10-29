@@ -1,6 +1,6 @@
 # PlenusApp
 
-**PlenusApp** é um aplicativo Android desenvolvido em **Flutter** que permite aos clientes de empresas de contabilidade acessar e gerenciar suas guias de pagamento e documentos fiscais de forma simples e segura.  
+**PlenusApp** é um aplicativo multiplataforma desenvolvido em **Flutter**, com foco principal em **Android**, mas também compatível com **Web, Windows, Linux e iOS**. Ele permite aos clientes de empresas de contabilidade acessar e gerenciar suas guias de pagamento e documentos fiscais de forma simples e segura.
 
 O app se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authentication** para autenticação, exibindo os arquivos armazenados em pastas no **Google Drive** associadas a cada cliente.
 
@@ -8,22 +8,21 @@ O app se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authen
 
 ## ⚡ Funcionalidades Principais
 
-### 🔹 Login e Criação de Conta
-- Autenticação via **Firebase Authentication**;  
-- Criação automática de conta se o usuário não existir;  
+### 🔹 Login
+- Autenticação via **Firebase Authentication** para usuários já cadastrados pelo **PlenusDesk**;  
 - Feedback de sucesso ou erro no login;  
-- Interface responsiva e agradável.
+- Interface responsiva e baseada no Material Design 3.
 
 ### 🔹 Listagem de Guias
 - Visualização de guias **pendentes** e **concluídas** em abas separadas;  
 - Ordenação das guias por **data de postagem**;  
-- Indicadores visuais de status (pendente/concluída);  
-- Interface clara com cards estilizados.
+- Indicadores visuais de status (pendente/concluída);
+- Mensagem de boas vinda ao usuário logado.
 
 ### 🔹 Detalhes da Guia
 - Ao clicar em uma guia, o usuário acessa a **tela de detalhes**:
-  - Data de vencimento (ou mensagem indicando ausência de data);  
-  - Instruções da guia;  
+  - Data de vencimento quando houver;  
+  - Instruções ou descrição da guia;
   - Botão para abrir a **pasta no Google Drive** contendo os arquivos;  
   - Botão para marcar/desmarcar a guia como concluída.
 
