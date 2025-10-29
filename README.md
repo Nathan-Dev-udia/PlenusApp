@@ -12,6 +12,7 @@ O app se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authen
 - Autenticação via **Firebase Authentication** para usuários já cadastrados pelo **PlenusDesk**;  
 - Feedback de sucesso ou erro no login;  
 - Interface responsiva e baseada no Material Design 3.
+
 ![Tela de Login](prints/1login.png)
 
 ### 🔹 Listagem de Guias
@@ -19,6 +20,7 @@ O app se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authen
 - Ordenação das guias por **data de postagem**;  
 - Indicadores visuais de status (pendente/concluída);
 - Mensagem de boas vinda ao usuário logado.
+
 ![Tela de Guias](prints/4teladasguias.png)
 
 ### 🔹 Detalhes da Guia
@@ -27,11 +29,13 @@ O app se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authen
   - Instruções ou descrição da guia;
   - Botão para abrir a **pasta no Google Drive** contendo os arquivos;  
   - Botão para marcar/desmarcar a guia como concluída.
+  
 ![Tela de Guias](prints/5guiaaberta.png)
 
 ### 🔹 Sincronização em Tempo Real
 - Todos os dados (guias, status, instruções) são **sincronizados imediatamente** com o Firebase;  
 - Atualização de status refletida instantaneamente no app e no painel administrativo.
+
 ![Tela de Guias](prints/7paginaconcluidas.png)
 
 ---
