@@ -85,3 +85,13 @@ O app se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authen
 - Design de UX voltado para simplicidade e clareza na experiência do cliente.
 
 ---
+## 🧑‍💻 Autor
+
+**Nathan Fernandes Alves**
+Desenvolvedor FullStack • Foco em sistemas integrados e soluções automatizadas  
+
+| Contato | Link |
+| :-- | :-- |
+| 📧 **E-mail Profissional** | [nathan.dev.udia@gmail.com](mailto:nathan.dev.udia@gmail.com) |
+| 🌐 **LinkedIn** | [linkedin.com/in/nathan-fernandes-alves](https://www.linkedin.com/in/nathan-fernandes-93761a179/) |
+| 💼 **Porfólio** | [https://github.com/nathan-fernandes-alves](https://nathan-dev-udia.github.io/portfolio/) |
