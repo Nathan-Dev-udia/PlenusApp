@@ -67,7 +67,7 @@ O app se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authen
 
 ## 🎨 Interface do Usuário
 
-- **LoginPage:** Tela de login com campos de e-mail e senha, suporte à criação de conta automática;  
+- **LoginPage:** Tela de login com campos de e-mail e senha;  
 - **HomePage:** Exibe abas de guias pendentes e concluídas, com cards estilizados;  
 - **GuiaPage:** Detalhes da guia, data de vencimento, instruções e botões de ação (abrir Drive, concluir guia);  
 - Design responsivo, com cores consistentes e gradientes suaves.
