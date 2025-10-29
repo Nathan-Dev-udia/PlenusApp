@@ -63,6 +63,7 @@ O vídeo mostra desde o cadastro de clientes e guias no [PlenusDesk](https://git
 6. O status é atualizado no Firebase em tempo real.
 
 **🎬 Veja o vídeo do PlenusApp funcionando:** [YouTube](https://youtu.be/4oot05qes-M)
+
 ---
 
 ## 🧩 Tecnologias Utilizadas
