@@ -20,7 +20,7 @@ Ele se conecta ao **Firebase Realtime Database** e utiliza o **Firebase Authenti
 - Feedback de sucesso ou erro no login;  
 - Interface responsiva e baseada no Material Design 3.
 
-![Tela de Login](prints/1login.png)
+![Tela de Login](https://github.com/Nathan-Dev-udia/PlenusApp/raw/main/prints/1login.png)
 
 ### 🔹 Listagem de Guias
 - Visualização de guias **pendentes** e **concluídas** em abas separadas;  
